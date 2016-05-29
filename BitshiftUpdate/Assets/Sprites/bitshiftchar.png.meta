@@ -1,0 +1,618 @@
+fileFormatVersion: 2
+guid: 0228724d78ba48945a92c6c1d7fa9b0e
+timeCreated: 1464464761
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bitshiftchar_0
+    21300002: bitshiftchar_1
+    21300004: bitshiftchar_2
+    21300006: bitshiftchar_3
+    21300008: bitshiftchar_4
+    21300010: bitshiftchar_5
+    21300012: bitshiftchar_6
+    21300014: bitshiftchar_7
+    21300016: bitshiftchar_8
+    21300018: bitshiftchar_9
+    21300020: bitshiftchar_10
+    21300022: bitshiftchar_11
+    21300024: bitshiftchar_12
+    21300026: bitshiftchar_13
+    21300028: bitshiftchar_14
+    21300030: bitshiftchar_15
+    21300032: bitshiftchar_16
+    21300034: bitshiftchar_17
+    21300036: bitshiftchar_18
+    21300038: bitshiftchar_19
+    21300040: bitshiftchar_20
+    21300042: bitshiftchar_21
+    21300044: bitshiftchar_22
+    21300046: bitshiftchar_23
+    21300048: bitshiftchar_24
+    21300050: bitshiftchar_25
+    21300052: bitshiftchar_26
+    21300054: bitshiftchar_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bitshiftchar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: -1}
+        - {x: 12, y: -1}
+        - {x: 0, y: -9}
+        - {x: 0, y: -21}
+        - {x: 6, y: -65}
+        - {x: 29, y: -65}
+        - {x: 37, y: -34}
+        - {x: 37, y: -8}
+    - name: bitshiftchar_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -37}
+        - {x: 6, y: -63}
+        - {x: 14, y: -65}
+        - {x: 35, y: -65}
+        - {x: 37, y: -52}
+        - {x: 37, y: -2}
+        - {x: 35, y: 0}
+    - name: bitshiftchar_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 0}
+        - {x: 0, y: -6}
+        - {x: 0, y: -65}
+        - {x: 37, y: -65}
+        - {x: 37, y: 0}
+    - name: bitshiftchar_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -1}
+        - {x: 12, y: -1}
+        - {x: 0, y: -5}
+        - {x: 0, y: -37}
+        - {x: 6, y: -65}
+        - {x: 31, y: -65}
+        - {x: 33, y: -63}
+        - {x: 37, y: -43}
+        - {x: 37, y: -6}
+    - name: bitshiftchar_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 0}
+        - {x: 0, y: -5}
+        - {x: 0, y: -30}
+        - {x: 8, y: -65}
+        - {x: 27, y: -65}
+        - {x: 37, y: -39}
+        - {x: 37, y: -2}
+        - {x: 35, y: 0}
+    - name: bitshiftchar_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0}
+        - {x: 0, y: -1}
+        - {x: 0, y: -37}
+        - {x: 9, y: -65}
+        - {x: 24, y: -65}
+        - {x: 37, y: -51}
+        - {x: 37, y: -3}
+        - {x: 35, y: 0}
+    - name: bitshiftchar_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 0}
+        - {x: 0, y: -2}
+        - {x: 0, y: -56}
+        - {x: 2, y: -65}
+        - {x: 28, y: -65}
+        - {x: 37, y: -54}
+        - {x: 37, y: -6}
+        - {x: 32, y: 0}
+    - name: bitshiftchar_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: -1}
+        - {x: 12, y: -1}
+        - {x: 0, y: -7}
+        - {x: 0, y: -53}
+        - {x: 10, y: -65}
+        - {x: 23, y: -65}
+        - {x: 37, y: -51}
+        - {x: 37, y: -8}
+    - name: bitshiftchar_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -2}
+        - {x: 8, y: -2}
+        - {x: 0, y: -6}
+        - {x: 0, y: -38}
+        - {x: 6, y: -65}
+        - {x: 28, y: -65}
+        - {x: 37, y: -34}
+        - {x: 37, y: -8}
+    - name: bitshiftchar_9
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -2}
+        - {x: 4, y: -4}
+        - {x: 0, y: -7}
+        - {x: 0, y: -47}
+        - {x: 4, y: -65}
+        - {x: 30, y: -65}
+        - {x: 37, y: -23}
+        - {x: 37, y: -9}
+        - {x: 27, y: -2}
+    - name: bitshiftchar_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -9}
+        - {x: 30, y: -1}
+        - {x: 8, y: -1}
+        - {x: 0, y: -4}
+        - {x: 0, y: -41}
+        - {x: 5, y: -65}
+        - {x: 28, y: -65}
+        - {x: 29, y: -64}
+        - {x: 34, y: -53}
+        - {x: 37, y: -21}
+    - name: bitshiftchar_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -65}
+        - {x: 31, y: -65}
+        - {x: 37, y: -33}
+        - {x: 37, y: -8}
+        - {x: 28, y: 0}
+    - name: bitshiftchar_12
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 0}
+        - {x: 0, y: -7}
+        - {x: 0, y: -60}
+        - {x: 1, y: -65}
+        - {x: 37, y: -65}
+        - {x: 37, y: -2}
+        - {x: 30, y: 0}
+    - name: bitshiftchar_13
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -1}
+        - {x: 2, y: -1}
+        - {x: 0, y: -2}
+        - {x: 0, y: -65}
+        - {x: 31, y: -65}
+        - {x: 32, y: -59}
+        - {x: 37, y: -34}
+        - {x: 37, y: -5}
+    - name: bitshiftchar_14
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 0}
+        - {x: 0, y: -7}
+        - {x: 0, y: -35}
+        - {x: 13, y: -63}
+        - {x: 15, y: -65}
+        - {x: 28, y: -65}
+        - {x: 37, y: -33}
+        - {x: 37, y: -4}
+        - {x: 26, y: 0}
+    - name: bitshiftchar_15
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 0}
+        - {x: 6, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -53}
+        - {x: 13, y: -65}
+        - {x: 25, y: -65}
+        - {x: 34, y: -46}
+        - {x: 37, y: -19}
+        - {x: 37, y: -6}
+    - name: bitshiftchar_16
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -55}
+        - {x: 10, y: -65}
+        - {x: 36, y: -65}
+        - {x: 37, y: -60}
+        - {x: 37, y: 0}
+    - name: bitshiftchar_17
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -1}
+        - {x: 13, y: -1}
+        - {x: 4, y: -3}
+        - {x: 0, y: -7}
+        - {x: 0, y: -55}
+        - {x: 14, y: -65}
+        - {x: 28, y: -65}
+        - {x: 35, y: -51}
+        - {x: 37, y: -31}
+        - {x: 37, y: -8}
+    - name: bitshiftchar_18
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -64}
+        - {x: 25, y: -64}
+        - {x: 31, y: -54}
+        - {x: 37, y: -49}
+        - {x: 37, y: 0}
+    - name: bitshiftchar_19
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -1}
+        - {x: 0, y: -64}
+        - {x: 26, y: -64}
+        - {x: 37, y: -54}
+        - {x: 37, y: -5}
+        - {x: 26, y: -1}
+    - name: bitshiftchar_20
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: -2}
+        - {x: 20, y: 0}
+        - {x: 15, y: 0}
+        - {x: 6, y: -4}
+        - {x: 0, y: -8}
+        - {x: 0, y: -46}
+        - {x: 13, y: -65}
+        - {x: 24, y: -65}
+        - {x: 27, y: -64}
+        - {x: 35, y: -48}
+        - {x: 37, y: -40}
+        - {x: 37, y: -7}
+    - name: bitshiftchar_21
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 0}
+        - {x: 13, y: 0}
+        - {x: 6, y: -4}
+        - {x: 0, y: -8}
+        - {x: 0, y: -56}
+        - {x: 10, y: -64}
+        - {x: 37, y: -64}
+        - {x: 37, y: -6}
+        - {x: 36, y: -2}
+    - name: bitshiftchar_22
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -1}
+        - {x: 12, y: -1}
+        - {x: 0, y: -6}
+        - {x: 0, y: -52}
+        - {x: 10, y: -63}
+        - {x: 16, y: -64}
+        - {x: 32, y: -64}
+        - {x: 37, y: -53}
+        - {x: 37, y: -8}
+    - name: bitshiftchar_23
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 0}
+        - {x: 0, y: -6}
+        - {x: 0, y: -46}
+        - {x: 12, y: -65}
+        - {x: 21, y: -65}
+        - {x: 27, y: -63}
+        - {x: 37, y: -44}
+        - {x: 37, y: -4}
+        - {x: 29, y: 0}
+    - name: bitshiftchar_24
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -5}
+        - {x: 0, y: -56}
+        - {x: 1, y: -59}
+        - {x: 28, y: -59}
+        - {x: 37, y: -56}
+        - {x: 37, y: -6}
+        - {x: 34, y: -5}
+    - name: bitshiftchar_25
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -5}
+        - {x: 0, y: -6}
+        - {x: 0, y: -40}
+        - {x: 2, y: -55}
+        - {x: 9, y: -59}
+        - {x: 34, y: -59}
+        - {x: 37, y: -52}
+        - {x: 37, y: -9}
+        - {x: 26, y: -5}
+    - name: bitshiftchar_26
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 0}
+        - {x: 0, y: -1}
+        - {x: 0, y: -65}
+        - {x: 36, y: -65}
+        - {x: 36, y: -1}
+        - {x: 35, y: 0}
+    - name: bitshiftchar_27
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 0
+        width: 37
+        height: 65
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 0}
+        - {x: 1, y: -1}
+        - {x: 1, y: -65}
+        - {x: 37, y: -65}
+        - {x: 37, y: -1}
+        - {x: 36, y: 0}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
