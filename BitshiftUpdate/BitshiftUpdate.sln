@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{CB13450A-2F6E-9B17-68E1-E1523B49F0BB}") = "BitshiftUpdate", "Assembly-CSharp.csproj", "{04540682-598A-E564-8D0E-133457C7ED2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04540682-598A-E564-8D0E-133457C7ED2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04540682-598A-E564-8D0E-133457C7ED2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04540682-598A-E564-8D0E-133457C7ED2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04540682-598A-E564-8D0E-133457C7ED2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
