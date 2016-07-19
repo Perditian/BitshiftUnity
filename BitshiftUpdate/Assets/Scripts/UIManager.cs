@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System.Collections.Generic;
 using System;
 
 
 // The UIManager controls which UI elements are
 // visible at any given time.
-public class UIManager : MonoBehaviour, IAdAPITarget
+public class UIManager : MonoBehaviour
 {
 	// The various UI groups. These remain serialized
 	// so that they can be attached via the inspector.
@@ -45,18 +44,9 @@ public class UIManager : MonoBehaviour, IAdAPITarget
 	
 	public void LoadScene(string name)
 	{
-		if (!(name == "ModeSelect" && GameManager.Instance.tutorialIsDone == 0))
-		{
 			GameManager.Instance.ResetGame();
 			SceneManager.LoadScene(name);
-		}
-		else
-		{
-			// restart a level!
-			GameManager.Instance.ResetGame();
-			// this will change to whatever level we're on, I'm sure.
-			SceneManager.LoadScene("Init");
-		}
+		
 	}
 	
 	
