@@ -49,12 +49,12 @@ public class UIManager : MonoBehaviour
 		
 	}
 	
-	
+	/*
 	public void Continue ()
 	{
 		Results.SetActive(false);
 		IngameGUI.SetActive(true);
-	}
+	}*/
 
 	/*
 	// For when we have a settings menu
@@ -132,7 +132,7 @@ public class UIManager : MonoBehaviour
 		PlayerPrefs.DeleteAll();
 	}
 
-
+	/*
 	// iterate over the list of lastOpenUI and set their active property to show
 	// <param name="show"></param>
 	void lastOpenUISetActive(bool show)
@@ -141,5 +141,5 @@ public class UIManager : MonoBehaviour
 		{
 			go.SetActive(show);
 		}
-	}
+	}*/
 }
