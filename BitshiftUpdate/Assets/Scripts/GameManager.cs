@@ -15,7 +15,8 @@ public class GameManager : MonoBehaviour
     // Stats that are not saved in PlayerPrefs go here.
     // This means shit will get refreshed when you change game state.
     [NonSerialized]
-    public int currentCheckpoint, bitshifted;
+    public int currentCheckpoint;
+    public bool bitshifted;
 
     // Stats that are saved in PlayerPrefs
     // This shit is constant everywhere.
@@ -92,7 +93,7 @@ public class GameManager : MonoBehaviour
     {
         // dunno how we're doing checkpoints yet but you get what's going on
         currentCheckpoint = 0;
-        bitshifted = 0;
+        bitshifted = false;
     }
 
 
