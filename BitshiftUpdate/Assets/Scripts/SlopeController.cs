@@ -25,7 +25,7 @@ public class SlopeController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		// animateSlopes(GameManager.Instance.bitshifted);
+		animateSlopes(GameManager.Instance.bitshifted);
 	}
 
 	void animateSlopes(bool shifted)
