@@ -4,24 +4,24 @@ using System.Collections;
 public class SlopeController : MonoBehaviour {
 
 	private Animator anim;
-
-	public Collider2D norm_c;
-	public Collider2D shift_c;
+	public Collider norm;
+	public Collider shift;
 
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
+		
 	}
 
 	void FixedUpdate () {
-		if (GameManager.Instance.bitshifted) {
-			norm_c.enabled = false;
-			shift_c.enabled = true;
-		} else {
-			norm_c.enabled = true;
-			shift_c.enabled = false;
-		}
-	}	
+		// if (GameManager.Instance.bitshifted) {
+		// 	norm.enabled = false;
+		// 	shift.enabled = true;
+		// } else {
+		// 	norm.enabled = true;
+		// 	shift.enabled = false;
+		// }
+	}
 	
 	// Update is called once per frame
 	void Update () {
