@@ -15,10 +15,10 @@ public class SlopeController : MonoBehaviour {
 
 	void FixedUpdate () {
 		if (GameManager.Instance.bitshifted) {
-			norm.enabled = false;
-			shift.enabled = true;
+			// norm.enabled = false;
+			// shift.enabled = true;
 		} else {
-			norm.enabled = true;
+			// norm.enabled = true;
 			shift.enabled = false;
 		}
 	}
