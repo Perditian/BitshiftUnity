@@ -12,6 +12,9 @@ public class TurretController : MonoBehaviour {
 	public float time = 0f;
 	public bool tracking = false;
 
+	private float shifted_delay = 1;
+	private float normal_delay  = 2;
+
 	// Use this for initialization
 	void Start () {
 		sprite = GetComponent<Renderer> ();
@@ -36,7 +39,11 @@ public class TurretController : MonoBehaviour {
 				// firing logic
 				if (hit.collider.gameObject.tag == "Player") {
 					if (tracking) {
-						if ((Time.time - time) >= 2) {
+						float delay = normal_delay;
+						if (GameManager.Instance.bitshifted) {
+							delay = shifted_delay;
+						}
+						if ((Time.time - time) >= delay) {
 							Debug.Log("bang");
 							GameObject b = (GameObject)Instantiate(bullet, transform.position + Offset.normalized * (.45f * Mathf.Sqrt(2)), Quaternion.identity);
 							b.GetComponent<BulletController>().target = target;
