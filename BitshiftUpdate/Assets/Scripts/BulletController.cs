@@ -4,6 +4,9 @@ using System.Collections;
 public class BulletController : MonoBehaviour {
 
 	public Collider2D target; 
+
+	private float normal_speed = 20;
+	private float shifted_speed = 5;
 	private Rigidbody2D rb2d; 
 	private Renderer sprite;
 
@@ -19,12 +22,21 @@ public class BulletController : MonoBehaviour {
 		if (hit.gameObject.tag == "Player") {
 			Debug.Log("YOU DEAD");
 		}
+		Destroy(this.gameObject);
 	}
 
 	// Update is called once per frame
 	void Update () {
 		if (!sprite.isVisible) {
-			Destroy(this);
+			Destroy(this.gameObject);
+		}
+	}
+
+	void FixedUpdate () {
+		if (GameManager.Instance.bitshifted) {
+			rb2d.velocity = rb2d.velocity .normalized * shifted_speed;
+		} else {
+			rb2d.velocity = rb2d.velocity .normalized * normal_speed;
 		}
 	}
 }

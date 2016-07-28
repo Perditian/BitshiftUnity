@@ -38,7 +38,7 @@ public class TurretController : MonoBehaviour {
 					if (tracking) {
 						if ((Time.time - time) >= 2) {
 							Debug.Log("bang");
-							GameObject b = (GameObject)Instantiate(bullet, CastStart, Quaternion.identity);
+							GameObject b = (GameObject)Instantiate(bullet, transform.position + Offset.normalized * (.45f * Mathf.Sqrt(2)), Quaternion.identity);
 							b.GetComponent<BulletController>().target = target;
 							tracking = false;
 						}
