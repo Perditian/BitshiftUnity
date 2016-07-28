@@ -3,23 +3,13 @@ using System.Collections;
 
 public class CloudController : MonoBehaviour {
 
-	private Animator anim;
 
-	void Start () 
-	{
-		anim = GetComponent<Animator> ();
-	
+	//Use this for Initialization
+	void Start () {
 	}
 	
 	// Update is called once per frame
-	void Update () 
-	{
-		animateClouds (GameManager.Instance.bitshifted);
+	void Update () {
 	
-	}
-
-	void animateClouds(bool shifted)
-	{
-		anim.SetBool("shifted", shifted);
 	}
 }
