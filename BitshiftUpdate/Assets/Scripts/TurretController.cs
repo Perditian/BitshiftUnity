@@ -21,7 +21,7 @@ public class TurretController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (sprite.isVisible) {
-			Debug.Log("hi! You gonna die now 2");
+			Debug.Log("hi! You gonna die now");
 
 			// calculate position to begin raycast from outside of hitbox
 			Vector3 CastEnd = target.transform.position + new Vector3(.185f, -.325f, 0f);
@@ -38,7 +38,7 @@ public class TurretController : MonoBehaviour {
 					if (tracking) {
 						if ((Time.time - time) >= 2) {
 							Debug.Log("bang");
-							GameObject b = (GameObject)Instantiate(bullet, CastStart, Quaternion.identity);
+							GameObject b = (GameObject)Instantiate(bullet, transform.position + Offset.normalized * (.45f * Mathf.Sqrt(2)), Quaternion.identity);
 							b.GetComponent<BulletController>().target = target;
 							tracking = false;
 						}
