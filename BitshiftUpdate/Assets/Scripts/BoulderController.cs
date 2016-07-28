@@ -3,6 +3,9 @@ using System.Collections;
 
 public class BoulderController : MonoBehaviour {
 
+	public Collider2D norm;
+	public Collider2D shift;
+
 	private Rigidbody2D rb2d; 
 	private Vector2 direction = Vector2.zero;
 	private float   onSlope = 0;
@@ -42,16 +45,21 @@ public class BoulderController : MonoBehaviour {
 
 	// Update is called once per frame
 	void FixedUpdate () {
+		// applypushing force to aid in pushing up slopes
 		if (onSlope != 0 && Mathf.Sign(onSlope) != Mathf.Sign(direction.x) && direction != Vector2.zero) {
 			rb2d.AddForce(new Vector2(Mathf.Sign(direction.x) * 24, 24));
 			Debug.Log(direction);		
 		}
 
-
 		if (GameManager.Instance.bitshifted) {
 			rb2d.isKinematic = true;
+			transform.rotation = Quaternion.identity;
+			norm.enabled = false;
+			shift.enabled = true;
 		} else {
 			rb2d.isKinematic = false;
+			norm.enabled = true;
+			shift.enabled = false;
 		}
 	}
 }
