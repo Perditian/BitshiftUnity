@@ -7,6 +7,7 @@ public class BulletController : MonoBehaviour {
 
 	private float normal_speed = 20;
 	private float shifted_speed = 5;
+	private float created;
 	private Rigidbody2D rb2d; 
 	private Renderer sprite;
 
@@ -14,6 +15,7 @@ public class BulletController : MonoBehaviour {
 	void Start () {
 		rb2d = GetComponent<Rigidbody2D> ();
 		sprite = GetComponent<Renderer> ();
+		created = Time.time;
 		Vector2 direction = target.transform.position + new Vector3(.185f, -.325f) - transform.position;
 		rb2d.velocity = direction.normalized * 10;
 	}
@@ -27,8 +29,9 @@ public class BulletController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (!sprite.isVisible) {
+		if (!sprite.isVisible && (Time.time - created >= .1)) {
 			Destroy(this.gameObject);
+				Debug.Log("bullet destroyed");
 		}
 	}
 
