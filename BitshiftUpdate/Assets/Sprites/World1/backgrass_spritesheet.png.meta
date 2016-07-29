@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: dd787f549aed93b4c9955a315b396be9
+timeCreated: 1469473145
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: backgrass_spritesheet_0
+    21300002: backgrass_spritesheet_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: backgrass_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1008
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 482, y: 39.5}
+        - {x: 478, y: 37.5}
+        - {x: 459, y: 34.5}
+        - {x: 451, y: 33.5}
+        - {x: 446, y: 31.5}
+        - {x: 426, y: 30.5}
+        - {x: 406, y: 28.5}
+        - {x: 405, y: 29.5}
+        - {x: 391, y: 30.5}
+        - {x: 381, y: 32.5}
+        - {x: 366, y: 36.5}
+        - {x: 352, y: 38.5}
+        - {x: 333, y: 38.5}
+        - {x: 324, y: 37.5}
+        - {x: 306, y: 34.5}
+        - {x: 300, y: 31.5}
+        - {x: 290, y: 29.5}
+        - {x: 274, y: 26.5}
+        - {x: 259, y: 27.5}
+        - {x: 232, y: 26.5}
+        - {x: 213, y: 22.5}
+        - {x: 194, y: 21.5}
+        - {x: 177, y: 21.5}
+        - {x: 171, y: 22.5}
+        - {x: 149, y: 23.5}
+        - {x: 134, y: 25.5}
+        - {x: 127, y: 27.5}
+        - {x: 112, y: 30.5}
+        - {x: 100, y: 32.5}
+        - {x: 87, y: 31.5}
+        - {x: 73, y: 28.5}
+        - {x: 68, y: 29.5}
+        - {x: 64, y: 26.5}
+        - {x: 56, y: 30.5}
+        - {x: 17, y: 36.5}
+        - {x: -3, y: 34.5}
+        - {x: -13, y: 32.5}
+        - {x: -31, y: 26.5}
+        - {x: -45, y: 23.5}
+        - {x: -49, y: 21.5}
+        - {x: -63, y: 22.5}
+        - {x: -87, y: 29.5}
+        - {x: -115, y: 37.5}
+        - {x: -119, y: 38.5}
+        - {x: -125, y: 39.5}
+        - {x: -152, y: 39.5}
+        - {x: -162, y: 38.5}
+        - {x: -177, y: 34.5}
+        - {x: -191, y: 31.5}
+        - {x: -216, y: 22.5}
+        - {x: -252, y: 13.5}
+        - {x: -265, y: 12.5}
+        - {x: -286, y: 11.5}
+        - {x: -287, y: 12.5}
+        - {x: -306, y: 17.5}
+        - {x: -320, y: 22.5}
+        - {x: -331, y: 27.5}
+        - {x: -348, y: 37.5}
+        - {x: -365, y: 43.5}
+        - {x: -376, y: 44.5}
+        - {x: -390, y: 44.5}
+        - {x: -408, y: 42.5}
+        - {x: -423, y: 42.5}
+        - {x: -427, y: 44.5}
+        - {x: -448, y: 48.5}
+        - {x: -455, y: 49.5}
+        - {x: -472, y: 49.5}
+        - {x: -488, y: 46.5}
+        - {x: -499, y: 45.5}
+        - {x: -504, y: 44.5}
+        - {x: -504, y: -155.5}
+        - {x: 504, y: -155.5}
+        - {x: 504, y: 44.5}
+        - {x: 498, y: 43.5}
+    - name: backgrass_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 1008
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 278, y: 31.5}
+        - {x: 278, y: 17.5}
+        - {x: 122, y: 17.5}
+        - {x: 122, y: 31.5}
+        - {x: 120, y: 33.5}
+        - {x: -24, y: 33.5}
+        - {x: -26, y: 31.5}
+        - {x: -26, y: 17.5}
+        - {x: -86, y: 17.5}
+        - {x: -86, y: 31.5}
+        - {x: -88, y: 33.5}
+        - {x: -200, y: 33.5}
+        - {x: -202, y: 31.5}
+        - {x: -202, y: 17.5}
+        - {x: -264, y: 17.5}
+        - {x: -266, y: 15.5}
+        - {x: -266, y: 1.5}
+        - {x: -294, y: 1.5}
+        - {x: -294, y: 15.5}
+        - {x: -296, y: 17.5}
+        - {x: -342, y: 17.5}
+        - {x: -342, y: 31.5}
+        - {x: -344, y: 33.5}
+        - {x: -374, y: 33.5}
+        - {x: -374, y: 47.5}
+        - {x: -376, y: 49.5}
+        - {x: -392, y: 49.5}
+        - {x: -394, y: 47.5}
+        - {x: -394, y: 33.5}
+        - {x: -438, y: 33.5}
+        - {x: -438, y: 47.5}
+        - {x: -440, y: 49.5}
+        - {x: -504, y: 49.5}
+        - {x: -504, y: -155.5}
+        - {x: 504, y: -155.5}
+        - {x: 504, y: 33.5}
+        - {x: 280, y: 33.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
