@@ -17,20 +17,20 @@ public class BulletController : MonoBehaviour {
 		sprite = GetComponent<Renderer> ();
 		created = Time.time;
 		Vector2 direction = target.transform.position + new Vector3(.185f, -.325f) - transform.position;
-		rb2d.velocity = direction.normalized * 10;
+		rb2d.velocity = direction.normalized;
 	}
 	
 	void OnTriggerEnter2D(Collider2D hit) {
 		if (hit.gameObject.tag == "Player") {
 			Debug.Log("YOU DEAD");
 		}
-		Destroy(this.gameObject);
+		KillBullet();
 	}
 
 	// Update is called once per frame
 	void Update () {
 		if (!sprite.isVisible && (Time.time - created >= .1)) {
-			Destroy(this.gameObject);
+			KillBullet();
 				Debug.Log("bullet destroyed");
 		}
 	}
@@ -41,5 +41,12 @@ public class BulletController : MonoBehaviour {
 		} else {
 			rb2d.velocity = rb2d.velocity .normalized * normal_speed;
 		}
+	}
+
+	void KillBullet () {
+		rb2d.velocity = Vector3.zero;
+		sprite.enabled = false;
+		GetComponent<Collider2D>().enabled = false;
+  	  	Destroy(this.gameObject, 1); 
 	}
 }

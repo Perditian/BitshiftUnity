@@ -6,7 +6,7 @@ public class TurretController : MonoBehaviour {
 
 	public Collider2D target;
 	public LayerMask mask;
-	public GameObject bullet; 
+	public GameObject bullet;
 
 	private Renderer sprite;
 	public float time = 0f;
@@ -17,11 +17,14 @@ public class TurretController : MonoBehaviour {
 
 	private float angle;
 	private Animator anim;
+	private LineRenderer line;
 
 	// Use this for initialization
 	void Start () {
 		sprite = GetComponent<Renderer> ();
 		anim = GetComponent<Animator> ();
+		line = GetComponent<LineRenderer> ();
+		line.sortingLayerName = "Foreground";
 		tracking = false;
 	}
 
@@ -40,9 +43,8 @@ public class TurretController : MonoBehaviour {
 			// check for collisions
 			if (CastEnd.x * transform.localScale.x > CastStart.x * transform.localScale.x) {
 				RaycastHit2D hit = Physics2D.Raycast(CastStart, (CastEnd- CastStart), Mathf.Infinity, mask);
-				Debug.DrawLine(CastStart, hit.point, Color.red, .1f);
 
-				angle = Mathf.Tan((CastEnd- CastStart).y/(CastEnd- CastStart).x);
+				angle = Mathf.Atan((transform.position - CastStart).y/(transform.position - CastStart).x);
 
 				// firing logic
 				if (hit.collider.gameObject.tag == "Player") {
@@ -56,6 +58,12 @@ public class TurretController : MonoBehaviour {
 							GameObject b = (GameObject)Instantiate(bullet, transform.position + Offset.normalized * (.45f * Mathf.Sqrt(2)), Quaternion.identity);
 							b.GetComponent<BulletController>().target = target;
 							tracking = false;
+						} else {
+							Vector3[] array = new Vector3[2];
+							array[0] = transform.position + new Vector3(0f,0f,-.5f);
+							array[1] = transform.position + (CastEnd - transform.position) * (Time.time - time) / delay + new Vector3(0f,0f,-.5f);
+							line.SetPositions(array);
+							line.enabled = true;
 						}
 					} else {
 						tracking = true;
@@ -64,9 +72,11 @@ public class TurretController : MonoBehaviour {
 				}
 			} else {
 				tracking = false;
+				line.enabled = false;
 			}
 		} else {
 			tracking = false;
+			line.enabled = false;
 		}	
 	}
 
@@ -82,6 +92,6 @@ public class TurretController : MonoBehaviour {
 			anim.SetBool ("shifted", false);
 
 		anim.SetFloat ("Angle", angle / Mathf.PI * 180);
-		// Debug.Log(angle / Mathf.PI * 180);
+		Debug.Log(angle / Mathf.PI * 180);
 	}
 }
